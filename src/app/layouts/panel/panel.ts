@@ -9,7 +9,7 @@ import { MatListModule } from '@angular/material/list';
 import { MatSelectModule } from '@angular/material/select';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatToolbarModule } from '@angular/material/toolbar';
-import { RouterOutlet } from '@angular/router';
+import { RouterLink, RouterOutlet } from '@angular/router';
 import { BottomSheet } from './components/bottom-sheet';
 @Component({
   selector: 'app-panel',
@@ -27,6 +27,7 @@ import { BottomSheet } from './components/bottom-sheet';
     MatCardModule,
     MatListModule,
     MatDividerModule,
+    RouterLink,
   ],
   templateUrl: './panel.html',
   styleUrl: './panel.scss',
