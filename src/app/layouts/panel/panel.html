@@ -1,0 +1,81 @@
+<div class="panel bg-white dark:bg-black">
+  <mat-card class="w-full max-w-2xl mx-auto h-svh">
+    <mat-drawer-container [hasBackdrop]="true">
+      <mat-drawer #drawer mode="over" class="p-4">
+        <mat-list>
+          <mat-list-item>Pepper</mat-list-item>
+          <mat-list-item>Salt</mat-list-item>
+          <mat-divider></mat-divider>
+          <mat-list-item>Paprika</mat-list-item>
+          <mat-divider></mat-divider>
+          <mat-list-item>Paprika</mat-list-item>
+        </mat-list>
+      </mat-drawer>
+      <mat-drawer-content>
+        <mat-card class="h-svh flex flex-col">
+          <div class="flex-1">
+            <mat-toolbar class="flex justify-between items-center">
+              <div class="">
+                <button
+                  matIconButton="elevated"
+                  (click)="drawer.toggle()"
+                  aria-label="Example icon-button with menu icon"
+                >
+                  <mat-icon>menu</mat-icon>
+                </button>
+                <span>My App</span>
+              </div>
+              <div class="">
+                <span class="example-spacer"></span>
+                <button
+                  matIconButton
+                  class="example-icon favorite-icon"
+                  aria-label="Example icon-button with heart icon"
+                >
+                  <mat-icon>favorite</mat-icon>
+                </button>
+                <button
+                  matIconButton
+                  class="example-icon"
+                  aria-label="Example icon-button with the theme icon"
+                  (click)="toggleTheme()"
+                >
+                  <mat-icon>dark_mode</mat-icon>
+                </button>
+              </div>
+            </mat-toolbar>
+            <div class="p-4">
+              <router-outlet></router-outlet>
+            </div>
+          </div>
+          <mat-toolbar class="h-14 flex justify-evenly items-center">
+            <button mat-icon-button color="primary">
+              <mat-icon>home</mat-icon>
+            </button>
+
+            <button mat-icon-button color="primary">
+              <mat-icon>notifications</mat-icon>
+            </button>
+
+            <button mat-icon-button color="primary">
+              <mat-icon>history</mat-icon>
+            </button>
+
+            <button mat-icon-button color="primary">
+              <mat-icon>settings</mat-icon>
+            </button>
+
+            <button mat-icon-button color="primary" (click)="openBottomSheet()">
+              <mat-icon>person</mat-icon>
+            </button>
+          </mat-toolbar>
+        </mat-card>
+      </mat-drawer-content>
+    </mat-drawer-container>
+  </mat-card>
+</div>
+
+<!-- 
+<div class="w-full max-w-2xl mx-auto border-s border-e border-s-gray-300 border-e-gray-300 shadow">
+
+</div> -->
