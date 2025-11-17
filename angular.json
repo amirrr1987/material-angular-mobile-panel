@@ -4,6 +4,15 @@
   "newProjectRoot": "projects",
   "projects": {
     "angular-panel": {
+      "i18n": {
+        "sourceLocale": "en-US",
+        "locales": {
+          "fa": {
+            "translation": "src/locale/messages.fa.xlf",
+            "baseHref": ""
+          }
+        }
+      },
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,6 +26,9 @@
         "build": {
           "builder": "@angular/build:application",
           "options": {
+            "localize": [
+              "fa"
+            ],
             "browser": "src/main.ts",
             "tsConfig": "tsconfig.app.json",
             "inlineStyleLanguage": "scss",
@@ -29,6 +41,9 @@
             "styles": [
               "src/app/assets/styles/tailwind.css",
               "src/app/assets/styles/styles.scss"
+            ],
+            "polyfills": [
+              "@angular/localize/init"
             ]
           },
           "configurations": {
@@ -84,6 +99,9 @@
             "styles": [
               "src/app/assets/styles/tailwind.css",
               "src/app/assets/styles/styles.scss"
+            ],
+            "polyfills": [
+              "@angular/localize/init"
             ]
           }
         }

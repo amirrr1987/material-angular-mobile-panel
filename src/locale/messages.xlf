@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en-US" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="8779977139710228563" datatype="html">
+        <source>Pepper</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/layouts/panel/panel.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="479653923311980609" datatype="html">
+        <source>Salt</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/layouts/panel/panel.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4623791793851956381" datatype="html">
+        <source>Paprika</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/layouts/panel/panel.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/layouts/panel/panel.html</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2623656493656102023" datatype="html">
+        <source>Shiba Inu</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/home/home.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2754036076364583205" datatype="html">
+        <source>Dog Breed</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/home/home.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4572973192314294092" datatype="html">
+        <source>Photo of a Shiba Inu</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/home/home.html</context>
+          <context context-type="linenumber">9,10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4974488641960879782" datatype="html">
+        <source> The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan. A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally bred for hunting. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/home/home.html</context>
+          <context context-type="linenumber">14,16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1619344176447657437" datatype="html">
+        <source>LIKE</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/home/home.html</context>
+          <context context-type="linenumber">20,21</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9219888125536520293" datatype="html">
+        <source>SHARE</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/home/home.html</context>
+          <context context-type="linenumber">21,22</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

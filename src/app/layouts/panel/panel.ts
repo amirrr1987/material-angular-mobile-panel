@@ -11,6 +11,7 @@ import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { RouterLink, RouterOutlet } from '@angular/router';
 import { BottomSheet } from './components/bottom-sheet';
+import { MatProgressBarModule } from '@angular/material/progress-bar';
 @Component({
   selector: 'app-panel',
   imports: [
@@ -28,6 +29,7 @@ import { BottomSheet } from './components/bottom-sheet';
     MatListModule,
     MatDividerModule,
     RouterLink,
+    MatProgressBarModule,
   ],
   templateUrl: './panel.html',
   styleUrl: './panel.scss',

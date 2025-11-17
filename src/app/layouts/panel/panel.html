@@ -1,14 +1,15 @@
 <div class="panel bg-white dark:bg-black">
-  <mat-card class="w-full max-w-2xl mx-auto h-svh">
+  <mat-card class="w-full max-w-2xl mx-auto h-svh relative">
+    <mat-progress-bar mode="determinate" value="90" class="absolute! inset-x-0 m-auto z-50" />
     <mat-drawer-container [hasBackdrop]="true">
       <mat-drawer #drawer mode="over" class="p-4">
         <mat-list>
-          <mat-list-item>Pepper</mat-list-item>
-          <mat-list-item>Salt</mat-list-item>
+          <mat-list-item i18n>Pepper</mat-list-item>
+          <mat-list-item i18n>Salt</mat-list-item>
           <mat-divider></mat-divider>
-          <mat-list-item>Paprika</mat-list-item>
+          <mat-list-item i18n>Paprika</mat-list-item>
           <mat-divider></mat-divider>
-          <mat-list-item>Paprika</mat-list-item>
+          <mat-list-item i18n>Paprika</mat-list-item>
         </mat-list>
       </mat-drawer>
       <mat-drawer-content>
@@ -23,7 +24,7 @@
                 >
                   <mat-icon>menu</mat-icon>
                 </button>
-                <span>My App</span>
+                <span >My App</span>
               </div>
               <div class="">
                 <span class="example-spacer"></span>

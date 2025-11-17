@@ -12,7 +12,11 @@ html {
         primary: mat.$cyan-palette,
         tertiary: mat.$orange-palette,
       ),
-      typography: Roboto,
+      typography: (
+        'Vazirmatn',
+        'Poppins',
+        'Roboto',
+      ),
       density: 0,
     )
   );
@@ -42,7 +46,7 @@ body {
 }
 body {
   margin: 0;
-  font-family: Roboto, 'Helvetica Neue', sans-serif;
+  font-family: 'Vazirmatn', 'Poppins', 'Roboto';
 }
 // :root {
 //   @include mat.toolbar-overrides((
